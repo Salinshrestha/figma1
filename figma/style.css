@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    background: url(hello.jpg);
+    height: 760px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #171515;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 44px;
+}
+
+.fa {
+    color: white;
+    position: relative;
+    left: 1450px;
+    font-size: 20px;
+}
+
+.header ul {
+    color: white;
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 850px;
+}
+
+.header ul li {
+    padding: 0 40px;
+    font-family: 'roboto';
+    font-size: 20px;
+
+}
+
+.header ul li:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.fa:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.ninja img {
+    position: relative;
+    right: 500px;
+}
+
+.ninja img:hover {
+    cursor: pointer;
+
+}
+
+.para p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-top: 235px;
+}
+
+.para2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.para2 p:hover {
+    cursor: pointer;
+    text-decoration: underline rgb(101, 101, 244);
+}
+
+.apply {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.apply button {
+    background-color: #27AD6C;
+    color: white;
+    width: 133px;
+    height: 49px;
+}
+
+.apply button:hover {
+    color: rgb(161, 239, 161);
+    transform: scale(1.1);
+}
+
+.apply :hover {
+    cursor: pointer;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.h h1 {
+    font-size: 45px;
+    color: #9B9B9B;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+}
+
+.box {
+    padding: 0 40px;
+}
+
+.box:hover {
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+    background-color: rgba(245, 232, 232, 0.509);
+}
+
+.box p:hover {
+    text-decoration: underline;
+    color: green;
+    cursor: pointer;
+}
+
+.container2 {
+    margin-top: 120px;
+    display: flex;
+
+}
+
+.resource {
+    position: relative;
+    left: 30vh;
+}
+
+.latest {
+    position: relative;
+    left: 95vh;
+}
+
+.line {
+    line-height: 3;
+}
+
+.line p {
+    color: green;
+}
+
+.line p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.border {
+    border: 1px solid greenyellow;
+    position: relative;
+    left: 72vh;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.food {
+    display: flex;
+    text-align: center;
+    color: #9B9B9B;
+    margin-top: 99px;
+    font-size: 34px;
+    flex-direction: column;
+}
+
+.foodimg {
+    display: flex;
+    /* flex-wrap wrap helps to stop overflow and adjust that overflowed elements at down  */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 19px;
+
+}
+
+.foodimg img:hover {
+    border: 1px solid red;
+
+}
+
+
+.footer {
+    background-color: #423633;
+}
+
+.provide {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.provide h2 {
+    margin-top: 99px;
+    font-size: 55px;
+    font-family: cursive;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 7;
+    margin-top: 105px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #874444;
+    color: white;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: left;
+}
+
+.socialmedia a {
+    color: black;
+
+}
+.socialmedia{
+    position: relative;
+    right: 772px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 50px;
+    font-size: 36px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    width: fit-content;
+
+}
+.socialmedia:hover{
+    cursor: pointer;
+}
